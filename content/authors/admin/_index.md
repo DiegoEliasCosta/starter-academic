@@ -1,39 +1,41 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Diego Elias Costa
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Postdoctoral Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
+- name: Concordia University
+  url: https://www.concordia.ca/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Interests to show in About widget
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Software Engineering
+- Performance Engineering
+- Software Maintenance and Evolution
+- Software Ecosystems
+- Mining Software Repositories
 
 # Education to show in About widget
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
+  - course: PhD in Computer Science
+    institution: Heidelberg University
+    year: 2019
+  - course: MSc in Computer Science
+    institution: Federal University of Uberlândia 
+    year: 2014
+  - course: BSc in Computer Science
+    institution: Federal University of Uberlândia
     year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -45,16 +47,19 @@ social:
   link: '/#contact'
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
-  icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://twitter.com/DiegoEliasCosta
+- icon: google-scholar  # Alternatively, use `google-scholar` icon from `ai` icon pack
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=HOWCJPMAAAAJ&hl
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
-- icon: linkedin
+  link: https://github.com/DiegoEliasCosta
+- icon: researchgate
   icon_pack: fab
-  link: https://www.linkedin.com/
+  link: https://www.researchgate.net/profile/Diego_Costa9
+#- icon: linkedin
+#  icon_pack: fab
+#  link: https://www.linkedin.com/
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`, 
@@ -70,8 +75,11 @@ email: ""
 highlight_name: false
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a postdoctoral researcher at Concordia University, working at the Department of Computer Science and Software Engineering in the [DAS Lab](http://das.encs.concordia.ca/) of Prof. [Emad Shihab](http://das.encs.concordia.ca/members/emad-shihab/). Before that, I was doing my PhD at Heidelberg University, in the [Parallel and Distributed Systems Group](https://pvs.ifi.uni-heidelberg.de/home/) of [Prof. Andrzejak](https://pvs.ifi.uni-heidelberg.de/team/aa/). 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+My research is focused on software engineering and performance engineering related topics, including 
+adaptive data structures and algorithms, performance testing, mining software repositories, API recommendation and memory leak detection.
+I am particularly interested in materializing empirical results into tools and approaches that minimize the 
+burden of developers.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+Born in Brazil, I have received my Bachelor and Master of Science degrees at the Federal University of Uberlândia.
